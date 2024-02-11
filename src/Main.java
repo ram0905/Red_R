@@ -4,12 +4,19 @@ import java.util.Arrays;
 
 public class Main {
 
+
+
+
     public static void main(String[] args) {
-//        int arr1[] = {1, 21, 3};
-//        int arr2[] = {1, 2, 3};
-//        if (Arrays.equals(arr1, arr2))
-//            System.out.println("Same");
-//        else
+
+
+
+
+              int arr1[] = {1, 21, 3};
+        int arr2[] = {1, 2, 3};
+        if (Arrays.equals(arr1, arr2))
+            System.out.println("Same");
+        else
         System.out.println("""
                 ____888888______________________________
                 ____888888______________________________
@@ -42,7 +49,7 @@ public class Main {
                 ____88888888_____1___88888888___________
                 _____888888___________888888____________
                 _______________________8888_____________
-                                    
+
                                     
                 """);
         System.out.println("3\n2\n1\nПоехали!!!");
@@ -88,5 +95,5 @@ public class Main {
 
 
 
-   }
+        }
 }
