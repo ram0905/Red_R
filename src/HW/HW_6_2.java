@@ -5,7 +5,7 @@ public class HW_6_2 {
 
 
 
-        System.out.println("Helo World");
+        System.out.println("Hello  World!!");
 
 
     }
