@@ -6,10 +6,6 @@ public class HW_6_2 {
 
 
 
-
-
-
-
     }
 }
 
