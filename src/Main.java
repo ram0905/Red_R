@@ -4,12 +4,16 @@ import java.util.Arrays;
 
 public class Main {
 
+
     public static void main(String[] args) {
+
+
 //        int arr1[] = {1, 21, 3};
 //        int arr2[] = {1, 2, 3};
-//        if (Arrays.equals(arr1, arr2))
+//        if (Arrays.equals(arr1, arr2)) {
 //            System.out.println("Same");
-//        else
+//        }
+//        else {
         System.out.println("""
                 ____888888______________________________
                 ____888888______________________________
@@ -42,7 +46,7 @@ public class Main {
                 ____88888888_____1___88888888___________
                 _____888888___________888888____________
                 _______________________8888_____________
-                                    
+
                                     
                 """);
         System.out.println("3\n2\n1\nПоехали!!!");
@@ -87,6 +91,53 @@ public class Main {
 //        System.out.println (a);
 
 
+        StringBuilder buffer = new StringBuilder("Весёлое Программирование");
+        buffer.reverse();
+        System.out.println(buffer);
 
-   }
+        StringBuffer buffer1 = new StringBuffer("Весёлое Программирование!!!!!!!");
+        buffer1.reverse();
+        System.out.println(buffer1);
+
+    }
+
+
+    {
+        String arr1[] = {"sff", "dfdf", "dfdf"};
+        String arr2[] = {"sff", "dfdf", "dfdf"};
+        int arr4[] = {1, 2, 3};
+        int arr3[] = {1, 2, 3};
+
+        String x = new String("ghjdfd");
+
+
+        System.out.println(x.length());
+        System.out.println(arr1.length);
+        System.out.println(arr2);
+
+
+        if (arr1.equals(arr2))
+            System.out.println("Same???");
+        else
+            System.out.println("Not same???");
+
+
+        if (arr1==arr2)
+            System.out.println("Same");
+        else
+            System.out.println("Not same");
+
+        Integer a = 128;
+        Integer b = 128;
+
+        if (a==b)
+            System.out.println("Same@@@@@@@");
+        else
+            System.out.println("Not same@@@@@@");
+
+        if (Arrays.equals(arr1,arr2))
+            System.out.println("Same!!!");
+        else
+            System.out.println("Not same!!!");
+    }
 }
