@@ -8,23 +8,23 @@ public class Main {
     public static void main(String[] args) {
 
 
-        int a = 30;
-        int b = 10;
-        int x = 0;
-
-        if ( b > 0 || (a % x)  ==0)
-            System.out.println("True !!!!!!!");
+//        int a = 30;
+//        int b = 10;
+//        int x = 0;
+//
+//        if ( b > 0 || (a % x)  ==0)
+//            System.out.println("True !!!!!!!");
 //          Если по значению первого операнда очевиден результат, то второй операнд не вычисляется.
 
 
-        int number = 50;
-        int delitel = 0;
-        //второй операнд не вычисляется и ошибки не возникает
-        if (delitel != 0 && (number % delitel) == 0)
-            System.out.println(delitel + " является делителем " + number);
+//        int number = 50;
+//        int delitel = 0;
+//        //второй операнд не вычисляется и ошибки не возникает
+//        if (delitel != 0 && (number % delitel) == 0)
+//            System.out.println(delitel + " является делителем " + number);
 //        Без использования укороченного оператора
 //          возникнет ошибка "деление на ноль"
-        System.out.println("Завершение работы программы");
+//        System.out.println("Завершение работы программы");
 //          Если по значению первого операнда очевиден результат, то второй операнд не вычисляется.
 
 
@@ -114,18 +114,16 @@ public class Main {
 //        System.out.println (a);
 
 
-        StringBuilder buffer = new StringBuilder("Весёлое Программирование");
-        buffer.reverse();
-        System.out.println(buffer);
-
-        StringBuffer buffer1 = new StringBuffer("Весёлое Программирование!!!!!!!");
-        buffer1.reverse();
-        System.out.println(buffer1);
-
-    }
+//        StringBuilder buffer = new StringBuilder("Весёлое Программирование");
+//        buffer.reverse();
+//        System.out.println(buffer);
+//
+//        StringBuffer buffer1 = new StringBuffer("Весёлое Программирование!!!!!!!");
+//        buffer1.reverse();
+//        System.out.println(buffer1);
 
 
-    {
+
         String arr1[] = {"sff", "dfdf", "dfdf"};
         String arr2[] = {"sff", "dfdf", "dfdf"};
         int arr4[] = {1, 2, 3};
@@ -150,8 +148,9 @@ public class Main {
         else
             System.out.println("Not same");
 
-        Integer a = 128;
-        Integer b = 128;
+
+        Integer a = 120;
+        Integer b = 120;
 
         if (a == b)
             System.out.println("Same@@@@@@@");
@@ -163,9 +162,5 @@ public class Main {
         else
             System.out.println("Not same!!!");
     }
-
-
-
-
 
 }
