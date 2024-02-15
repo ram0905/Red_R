@@ -8,13 +8,36 @@ public class Main {
     public static void main(String[] args) {
 
 
+        int a = 30;
+        int b = 10;
+        int x = 0;
+
+        if ( b > 0 || (a % x)  ==0)
+            System.out.println("True !!!!!!!");
+//          Если по значению первого операнда очевиден результат, то второй операнд не вычисляется.
+
+
+        int number = 50;
+        int delitel = 0;
+        //второй операнд не вычисляется и ошибки не возникает
+        if (delitel != 0 && (number % delitel) == 0)
+            System.out.println(delitel + " является делителем " + number);
+//        Без использования укороченного оператора
+//          возникнет ошибка "деление на ноль"
+        System.out.println("Завершение работы программы");
+//          Если по значению первого операнда очевиден результат, то второй операнд не вычисляется.
+
+
+
+
+
 //        int arr1[] = {1, 21, 3};
 //        int arr2[] = {1, 2, 3};
 //        if (Arrays.equals(arr1, arr2)) {
 //            System.out.println("Same");
 //        }
 //        else {
-        System.out.println("""
+/*        System.out.println("""
                 ____888888______________________________
                 ____888888______________________________
                 ___8888888888___________________________
@@ -53,7 +76,7 @@ public class Main {
 
         System.out.println("\uD83D\uDE00");
         System.out.println("\uD83D\uDE00");
-
+*/
 
 //        int[][] array2 = {{1, 2, 3, 4, 5},
 //                {6, 7, 8, 9},
@@ -122,7 +145,7 @@ public class Main {
             System.out.println("Not same???");
 
 
-        if (arr1==arr2)
+        if (arr1 == arr2)
             System.out.println("Same");
         else
             System.out.println("Not same");
@@ -130,14 +153,19 @@ public class Main {
         Integer a = 128;
         Integer b = 128;
 
-        if (a==b)
+        if (a == b)
             System.out.println("Same@@@@@@@");
         else
             System.out.println("Not same@@@@@@");
 
-        if (Arrays.equals(arr1,arr2))
+        if (Arrays.equals(arr1, arr2))
             System.out.println("Same!!!");
         else
             System.out.println("Not same!!!");
     }
+
+
+
+
+
 }
